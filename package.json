@@ -1,0 +1,27 @@
+{
+  "name": "eonbot-binance-driver",
+  "version": "1.0.0",
+  "description": "Binance driver for EonBot",
+  "main": "index.js",
+  "keywords": [
+    "binance",
+    "eonbot",
+    "driver"
+  ],
+  "author": "EonTech.io",
+  "license": "MIT",
+  "dependencies": {
+    "basic-auth": "^2.0.0",
+    "binance-api-node": "^0.8.4",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json-error": "^3.1.2",
+    "koa-router": "^7.4.0",
+    "node-json-minify": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
